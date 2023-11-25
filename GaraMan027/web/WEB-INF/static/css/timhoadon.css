@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://cdn.tgdd.vn//GameApp/1343936//54-800x1422.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#2ecc71;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+    margin-right: 20px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: 10px;
+    overflow-x: auto;
+}
+
+.scrollable-table {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 2px solid #000;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+form#f01 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.container-fluid {
+    background-color: rgba(46, 204, 113, 0.8); /* Màu xanh lá cây với độ trong suốt */
+    padding: 20px;
+    border-radius: 10px; /* Độ cong góc của background */
+}

@@ -1,0 +1,30 @@
+    body {
+        background-image: url('https://c.wallhere.com/photos/04/01/cars_de_photoshoot_top_automotive_monaco_ktm_gt-953795.jpg!d'); /* Đường dẫn đến hình ảnh background */
+        background-size: cover; /* Đảm bảo hình ảnh nền che phủ toàn bộ trang */
+        background-position: center center; /* Canh giữa hình ảnh nền */
+        background-repeat: no-repeat; /* Ngăn chặn lặp lại hình ảnh nền */
+        background-attachment: fixed; /* Giữ hình ảnh cố định khi cuộn trang */
+        padding: 20px; /* Tăng khoảng cách giữa nội dung và mép trang */
+    }
+    body {
+        font-family: 'Roboto', sans-serif; /* Chọn font chữ cho trang */
+        color: #333; /* Màu chữ chính của trang */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #218838; /* Màu xanh lá cây cho tiêu đề */
+    }
+
+    .card-title {
+        color: #218838; /* Màu xanh lá cây cho tiêu đề của thẻ card */
+    }
+
+    .btn-primary, .btn-secondary, .btn-warning {
+        background-color: #218838; /* Màu nút là xanh lá cây */
+        border-color: #218838; /* Màu viền của nút là xanh lá cây */
+    }
+
+    .btn-primary:hover, .btn-secondary:hover, .btn-warning:hover {
+        background-color: #1e7e34; /* Màu hover của nút là xanh đậm hơn */
+        border-color: #1e7e34; /* Màu viền hover của nút là xanh đậm hơn */
+    }
